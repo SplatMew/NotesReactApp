@@ -14,7 +14,9 @@ function App() {
   
 
   return (
+    
     <Router>
+      <Navigation />
       <div className="container p-4">
         <Routes>
           <Route path="/" element={<NotesList />} />
